@@ -27,4 +27,5 @@ $router->group('', function(Router $router) use ($app) {
 	$router->post('/login', [AuthController::class, "login"]);
 
 
+	
 }, [ SecurityHeadersMiddleware::class ]);
