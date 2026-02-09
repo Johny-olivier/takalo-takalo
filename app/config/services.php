@@ -16,8 +16,8 @@ if (Debugger::$showBar === true && php_sapi_name() !== 'cli') {
 
 
 // MySQL Example:
-$dsn = 'mysql:host=' . $config['database']['host'] . ';dbname=' . $config['database']['dbname'] . ';charset=utf8mb4';
+//$dsn = 'mysql:host=' . $config['database']['host'] . ';dbname=' . $config['database']['dbname'] . ';charset=utf8mb4';
 
 // Register Flight::db() service
-$pdoClass = Debugger::$showBar === true ? PdoQueryCapture::class : PdoWrapper::class;
-$app->register('db', $pdoClass, [ $dsn, $config['database']['user'] ?? null, $config['database']['password'] ?? null ]);
+//$pdoClass = Debugger::$showBar === true ? PdoQueryCapture::class : PdoWrapper::class;
+//$app->register('db', $pdoClass, [ $dsn, $config['database']['user'] ?? null, $config['database']['password'] ?? null ]);
