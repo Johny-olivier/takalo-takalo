@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/login.css">
 </head>
 <body>
     <div class="container">
@@ -14,7 +15,8 @@
             <label for="pwd_hash">Password:</label>
             <input type="password" name="pwd_hash" id="pwd_hash">
             <div class="select_button">
-                <input type="submit" value="Connexion">
+                <input type="submit" value="Login">
+                <button><a href="register.php">Sign In!</a></button>
             </div>
         </form>
     </div>
