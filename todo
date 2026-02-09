@@ -17,3 +17,14 @@ I - partie 1
             - page login
         - integration : 
             - login + fonction php + fonction js
+    b. Gestion des catégories
+2. Frontoffice (utilisateur)
+    a. Créer une page d’inscription et de login
+    b. Page pour gérer ses objets
+        i. Objet : titre description, 1 ou plusieurs photos, prix estimatif
+    c. Page pour voir la liste des objets des autres utilisateurs
+        i. Fiche objet
+            i.1. Proposition d’échange avec notre objet
+    d. Page pour gérer les échanges avec d’autres utilisateurs
+        i. Liste des propositions
+        ii. Acceptation ou refus
