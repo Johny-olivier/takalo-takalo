@@ -42,8 +42,8 @@ class ComposerStaticInit4b3a253f57d31d773b6986822b8dc6cf
         ),
         'Nette\\' => 
         array (
-            0 => __DIR__ . '/..' . '/nette/utils/src',
-            1 => __DIR__ . '/..' . '/nette/php-generator/src',
+            0 => __DIR__ . '/..' . '/nette/php-generator/src',
+            1 => __DIR__ . '/..' . '/nette/utils/src',
         ),
         'Ahc\\Cli\\' => 
         array (
