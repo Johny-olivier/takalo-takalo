@@ -3,22 +3,18 @@
     - categorie
     - objet
 
-
-
 I - partie 1
 
 1. [E] Backoffice (page admin)
     a . Login admin (mettre le login par défaut sur le formulaire) : 
         - base : 
             - users (id, nom, email, mdp_hash)
-        - fonction (php + javascript)
-            - verification user (input)
+        - php + js
+            - model, controller, service, repository, router, ajax (js)
+            - verification user
         - affichage : 
             - page login
         - integration : 
-<<<<<<< HEAD
-
-=======
             - login + fonction php + fonction js
     b. Gestion des catégories
 2. Frontoffice (utilisateur)
@@ -31,4 +27,3 @@ I - partie 1
     d. Page pour gérer les échanges avec d’autres utilisateurs
         i. Liste des propositions
         ii. Acceptation ou refus
->>>>>>> c7b0155f39527400f0668d2dfb929f06fd23e34f

@@ -1,6 +1,6 @@
 <?php
 
-use app\controllers\ApiExampleController;
+use App\Controllers\AuthController;
 use app\middlewares\SecurityHeadersMiddleware;
 use flight\Engine;
 use flight\net\Router;
@@ -17,7 +17,14 @@ $router = Flight::router();
 $router->group('', function(Router $router) use ($app) {
 
 	$router->get('/', function() use ($app) {
-		$app->render('welcome', [ 'message' => 'You are gonna do great things!' ]);
+		$app->redirect("/login");
 	});
-	
+
+	$router->get('/login', function() use ($app) {
+		$app->render('login');
+	});
+
+	$router->post('/login', [AuthController::class, "login"]);
+
+
 }, [ SecurityHeadersMiddleware::class ]);
