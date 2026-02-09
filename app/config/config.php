@@ -39,9 +39,9 @@ $app->set('csp_nonce', $nonce);
 return [
 	'database' => [
 		// MySQL Example:
-		'host'     => 'localhost',      // Database host (e.g., 'localhost', 'db.example.com')
-		'dbname'   => 'your_db_name',   // Database name (e.g., 'flightphp')
-		'user'     => 'your_username',  // Database user (e.g., 'root')
-		'password' => 'your_password',  // Database password (never commit real passwords)
+		//'host'     => 'localhost',      // Database host (e.g., 'localhost', 'db.example.com')
+		//'dbname'   => 'your_db_name',   // Database name (e.g., 'flightphp')
+		//'user'     => 'your_username',  // Database user (e.g., 'root')
+		//'password' => 'your_password',  // Database password (never commit real passwords)
 	],
 ];

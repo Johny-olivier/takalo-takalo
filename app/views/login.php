@@ -15,8 +15,8 @@
             <label for="pwd_hash">Password:</label>
             <input type="password" name="pwd_hash" id="pwd_hash">
             <div class="select_button">
-                <input type="submit" value="Login">
-                <button><a href="register.php">Sign In!</a></button>
+                <input type="submit" value="Login" class="button">
+                <button class="button"><a href="register.php">Sign In</a></button>
             </div>
         </form>
     </div>
