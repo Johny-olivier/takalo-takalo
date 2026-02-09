@@ -1,1 +1,19 @@
-test
+- données de test : 
+    - login
+    - categorie
+    - objet
+
+
+
+I - partie 1
+
+1. [E] Backoffice (page admin)
+    a . Login admin (mettre le login par défaut sur le formulaire) : 
+        - base : 
+            - users (id, nom, email, mdp_hash)
+        - fonction (php + javascript)
+            - verification user (input)
+        - affichage : 
+            - page login
+        - integration : 
+            - login + fonction php + fonction js
